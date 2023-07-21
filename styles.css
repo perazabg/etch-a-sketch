@@ -1,0 +1,13 @@
+/* *{
+  border: 1px red dashed;
+}
+*/
+.cell{
+    border: 1px black solid;
+    background-color: lightgrey;
+  }
+  
+  .gridContainer{
+    height: 500px;
+    width: 500px;
+  }
