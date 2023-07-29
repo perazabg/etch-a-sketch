@@ -1,13 +1,28 @@
 /* *{
   border: 1px red dashed;
+} */
+
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-*/
+
 .cell{
-    border: 1px black solid;
-    background-color: lightgrey;
-  }
-  
-  .gridContainer{
-    height: 500px;
-    width: 500px;
-  }
+  /*border: 1px black solid;*/
+}
+
+.gridContainer{
+  height: 600px;
+  width: 600px;
+  box-shadow: 0px 18px 28px 8px darkgrey;
+  margin: 16px
+}
+
+.title{
+  font-size: 48px;
+  font-weight: bold;
+  margin: 12px;
+}
