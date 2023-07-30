@@ -11,9 +11,10 @@
   margin-top: 24px;
 }
 
+/*
 .cell{
-  /*border: 1px black solid;*/
-}
+  border: 1px black solid;
+} */
 
 .gridContainer{
   height: 600px;
