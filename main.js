@@ -63,4 +63,4 @@ window.addEventListener("load", event => {
   let size = slider.value;
   sliderValue.innerHTML = size;
   createGrid(DEFAULT_SIZE);
-});
+}); 
