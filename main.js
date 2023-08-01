@@ -8,21 +8,22 @@ const sliderValue = document.getElementById('sliderValue');
 
 
 slider.addEventListener('change', event => {
-  /*grid.innerHTML = '';*/
+  grid.innerHTML = '';
   let newSize = slider.value;
   sliderValue.innerHTML = `${newSize}`
-})
+  createGrid(newSize);
+});
 
 defaultColor.addEventListener('click', event => {
   let newSize = slider.value;
     createGrid(newSize);
-})
+});
 
 rgbBtn.addEventListener('click', event => {
   let newSize = slider.value;
   rgbGrid(newSize); //fix here
   
-})
+});
 
 
 
